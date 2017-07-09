@@ -57,3 +57,23 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   padding: 10px;
   color: white;
 }
+
+.container-align-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: solid 10px mistyrose;
+/*  align-content: stretch; */
+/*  align-content: flex-start;*/
+/*  align-content: flex-end; */
+  align-content: center;
+/*  align-content: space-around; */
+/*  align-content: space-between;*/
+  height: 100vh;
+  justify-content: center;
+}
+
+.box-item {
+  width: 33.333%;
+  padding: 20px;
+}
