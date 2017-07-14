@@ -3,3 +3,5 @@
   2. align-content applied to flex container.  Take the space along the cross-axis
 
   3. align-items applied to flex container.  Take the space along the cross-axis. Default value is stretch
+
+  4. align-self applied to flex item.  Override the value of align-items
