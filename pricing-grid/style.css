@@ -84,3 +84,24 @@ a {
 .plan .cta {
   align-self: flex-end;
 }
+
+@media all and (max-width:1000px) {
+  .pricing-grid {
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  .pricing-grid .plan {
+    flex-basis: 40%;
+  }
+}
+
+@media all and (max-width:500px) {
+  .pricing-grid {
+    flex-wrap: wrap;
+  }
+  
+  .pricing-grid .plan {
+    flex-basis: 100%;
+  }
+}
