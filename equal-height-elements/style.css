@@ -33,3 +33,18 @@ a {
 }
 
 /* Flexbox Starts Here: */
+
+/* flex container */
+.elements {
+  display: flex;
+  flex-wrap: wrap; 
+  /* justify the items along the main axis */ 
+  justify-content: center;
+}
+
+/* flex-item*/
+.item {
+  /* 20px padding in .item */
+  /* change flex to 0 so the elements on the last row do not grow */
+  flex: 0 1 calc(33.333% - 20px);
+}
