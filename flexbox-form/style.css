@@ -75,6 +75,18 @@ a {
   border-radius: 5px;
 }
 
-input[type='search'] {
-  flex-basis: 500px;
+.flex-form input[type="search"] {
+  flex-basis: 400px;
+}
+
+.flex-form input[type="date"] {
+  flex-basis: 225px;
+}
+
+.flex-form .date-item {
+  order: 1;
+}
+
+.flex-form > * {
+  order: 9999;
 }
