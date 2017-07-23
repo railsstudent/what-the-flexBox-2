@@ -76,7 +76,7 @@ a {
 }
 
 .flex-form input[type="search"] {
-  flex-basis: 400px;
+  flex-basis: 500px;
 }
 
 .flex-form input[type="date"] {
