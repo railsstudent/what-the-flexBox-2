@@ -108,7 +108,6 @@ a.button {
 
 .app-wrap > * {
   flex: 1 1 auto;
-  border: 10px solid red;
 }
 
 .app-header {
@@ -131,16 +130,8 @@ a.button {
 */
 .icon-bar {
   display: flex;
-  flex-direction: row;
-  align-items: stretch;
 }
 
 .icon-bar a {
   flex: 1;
-
-  /*border: 10px solid blue;*/
-}
-
-.icon-bar i {
-  border: 2px solid goldenrod;
 }
